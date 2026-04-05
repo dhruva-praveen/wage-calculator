@@ -42,7 +42,6 @@ public class main {
         System.out.println("---------------------------");
     }
 
-    // Converts HH.MM to decimal hours (e.g., 8.30 → 8.5)
     public static double convertHours(double time) {
         int hours = (int) time;
         double minutes = (time - hours) * 100;
